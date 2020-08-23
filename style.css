@@ -1,0 +1,246 @@
+/*body*/
+
+body {
+  background:rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica neue, helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.MenuBody {
+  height: 818px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/*header*/
+
+header {
+  background-color: black;
+  background-image: url("https://sarasmarketbakery.com/wp-content/uploads/2014/02/bakery-header2.jpg");
+  background-size: 100%;
+  padding: 20px;
+  height: 400px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+header .logo a {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/57c72a1303596e46581a59db/1489078349488-IGAOX4W68CIH56YGT47Y/ke17ZwdGBToddI8pDm48kMtKXhQESET8BONsa7YumBxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwByAe3zud1-7qbONy-EcuwZNK5j4FSvmh69HiQzfuIooE30bQscSwIs-gPmB6s5Fc/pacific-dark.png");
+  display: inline-block;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 80px;
+  text-indent: -9999999px;
+  top: -30px;
+  position: relative;
+}
+
+header .mobile {
+  display: none;
+  top: 0px;
+  position: relative;
+}
+
+/*nav*/
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px;
+}
+
+/*responsive rules*/
+
+@media screen and (max-width: 500px) {
+  header .mobile{
+  background-size: 50%;
+ }
+  header .mobile {
+   display: inline-block;
+ }
+ header .desktop {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 350px;
+ }
+  header .mobile {
+   display: inline-block;
+ }
+ header .desktop {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 400px) {
+  header .mobile {
+   display: inline-block;
+ }
+ header .desktop {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 715px) {
+  .features {
+  display: block;
+  flex-wrap: wrap;
+ }
+}
+
+/*feature*/
+
+.features {
+ background: white;
+ color: brown;
+ display: flex;
+ flex-direction: row;
+}
+
+.features figure img {
+  border-radius: 15px; 
+}
+
+/*section*/
+
+section {
+  background: white;
+  color:black;
+  padding: 40px ;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+section .freshbread {
+  position: relative;
+  border: 1px solid lightgray;
+  left: -68px;
+  top: -26px;
+  width: 450px;
+  height: 420px;
+  background-size: 100%;
+  image-resolution: 100%;
+}
+
+section .coffee {
+  position: relative;
+  border: 1px solid lightgray;
+  left: -126px;
+  top: -26px;
+  width: 452px;
+  height: 420px;
+  background-size: 100%;
+  image-resolution: 100%;
+}
+
+section .cupcake {
+  position: relative;
+  border: 1px solid lightgray;
+  right: 187px;
+  top: -26px;
+  width: 450px;
+  height: 420px;
+  background-size: 100%;
+  image-resolution: 100%;
+}
+
+/*article*/
+
+.MenuArticle {
+  background-color: whitesmoke;
+  position: relative;
+  padding: 10px;
+  height: 940px;
+  overflow: hidden;
+}
+
+article .TextMenu {
+  color: brown;
+}
+
+article .TextMenuBread {
+  color: black;
+}
+
+.ArticleImgMEnu {
+  position: relative;
+  right: -665px;
+  margin: auto;
+  padding: 0px;
+  height: 960px;
+  width: 750px;
+  border: 3px solid black;
+  top: -13px;
+}
+
+/*menuLowerSection*/
+
+.UlLower {
+  padding: 3px;
+  margin: 0;
+  list-style-type: none;
+  background: rgb(58, 58, 58);
+  color: white;
+}
+
+.LText {
+  margin-left: 1px;
+  height: 15px;
+}
+
+.HomeTextLower {
+  padding: 3px;
+  margin: 0;
+  list-style-type: none;
+  background: rgb(58, 58, 58);
+  color: white;
+  left: -13px;
+}
+
+/*ul,li*/
+
+ul .Nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li .mobile .desktop {
+  display: inline-block;
+  margin: 0px 20px 0px -1px;
+}
+
+li .TextLower {
+  background-color: white;
+}
+
+/*footer*/
+
+footer {
+  background: grey;
+  color: white;
+  padding: 15px;
+}
+
+.MenuFooter {
+  align-content: unset;
+}
